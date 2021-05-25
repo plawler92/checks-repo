@@ -1,0 +1,9 @@
+checkName: two
+checkType: sqlserver
+checkSuites:
+  - examples
+  - helloworlds
+database: TestDB
+passValue: Pass
+sql: |
+  SELECT 'Pass'
